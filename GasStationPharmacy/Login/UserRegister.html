@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Bootstrap Theme Company Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="Register.js"></script>
+    <link rel="stylesheet" href="Register.css" />
+
+</head>
+<body>
+    <div class="container-fluid">
+        <form accept-charset="UTF-8" role="form" onsubmit="SubAction(this)">
+            <div class="row vertical-offset-100">
+                <div class="col-md-4 col-md-offset-2">
+                    <h1>Formulario de registro</h1><br />
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <fieldset>
+                                <div class="form-group">
+                                    <label for="name1">Primer nombre:</label>
+                                    <input type="text" class="form-control" id="name1" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="name2">Segundo nombre:</label>
+                                    <input type="text" class="form-control" id="name2" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="name3">Primer apellido:</label>
+                                    <input type="text" class="form-control" id="name3" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="name4">Segundo apellido:</label>
+                                    <input type="text" class="form-control" id="name4" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="idc">Cédula:</label>
+                                    <input type="number" class="form-control" id="idc" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="tele">Número de teléfono:</label>
+                                    <input type="number" class="form-control" id="tele" />
+                                </div>
+                                <div class="form-group">
+                                    <div><label for="bdate">Fecha de nacimiento:</label></div>
+                                    <div class="col-md-4">
+                                        <select class="form-control" id="year">
+                                            <option value="" disabled selected>Año</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <select class="form-control" id="month">
+                                            <option value="" disabled selected>Mes</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <select class="form-control" id="day">
+                                            <option value="" disabled selected>Día</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+                <div class="row vertical-offset-200">
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <div><label for="pais">País</label></div>
+                                        <select class="form-control" id="pais">
+                                            <option value="" disabled selected>País</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <div><label for="provincia">Provincia</label></div>
+                                        <select class="form-control" id="provincia">
+                                            <option value="" disabled selected>Provincia</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <div><label for="canton">Cantón</label></div>
+                                        <select class="form-control" id="canton">
+                                            <option value="" disabled selected>Cantón</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group-sub">
+                                        <input class="btn btn-lg btn-success btn-block" type="submit" value="Submit">
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
